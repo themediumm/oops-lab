@@ -1,0 +1,360 @@
+Assignment 1 
+
+
+1. Write a Program using C++ to draw the Diamond pattern with numbers  
+ 
+    1  
+32123 
+       543212345 
+32123 
+    1 
+Input: n = number of lines (n must be odd) 
+ 
+ 
+ 
+2. Printing of Number Pyramid 
+Objective: Learn to use 
+manipulators  
+        Problem Statement: 
+Write a C++ code to accept a value of ‘n’ and display a number “Hourglass” pattern 
+as following: 
+ 
+ 
+123454321 
+2345432 
+34543 
+454 
+5 
+454 
+34543 
+2345432 
+123454321 
+ 
+3. Illustrating damped oscillation 
+Objective: 
+ Learn to use C++ manipulators &amp; iomanip.h 
+ Learn to cin, cout objects &amp; iostream.h 
+ Learn to use basics of files handling (you may use only C file handing 
+functions) 
+Problem Statement: 
+Write a C++ code to display the plot of a function illustrating damped oscillation. Your 
+program should take as input the initial and final value of theta (in degrees), step count 
+and also the char to be used to fill up the pattern. 
+ 
+Objectives: 
+ Manipulating Strings in C++ 
+4. Printing of Pattern 
+Objective: Learn to use manipulators 
+Problem Statement: 
+Write a C++ code to implement a Butterfly Pattern as following. 
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * * * * * * * * * 
+* * * * * * * * * * * * * * 
+* * * * * * * * * * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+5. Indentation of an unindented code 
+Objective: Learn to deal with text files and char strings 
+Problem Statement: (use string header file in C++) 
+Read as input an unindented C/C++ program from a C/C++ file, them write a function 
+indent() to convert the input code into an indented code. The intended code should 
+be saved in another file “indent.c” and display. 
+[Read the input unindented code as an array of strings; treat each line (null 
+terminated) of code as a string; maintain a int variable say (tab). During processing 
+parse each string(line) and increment tab when ‘{‘ is encountered and decrement tab 
+when ‘}’ is encountered. To obtain desired indentation append specific number of 
+blank spaces corresponding to the tab to each string(line) (you may use strcat() 
+function to achieve this).]
+
+
+
+Assignment 2 
+
+
+1. 
+Implementation of linear linked list.  
+Objective:
+ Learn to deal with basic Data Structure. 
+Problem Statement: 
+Implementation of linear linked list which performs insertion (at beginning) and 
+deletion as given the key. You should have performed these functions:   
+display 
+insetBeg 
+delete 
+concatenate  
+search 
+2. Implementation of Heap.  
+Objective:
+ Learn to deal with basic Data Structure. 
+Problem Statement: 
+Implement a Heap structure. You should have atleast these functions:  initialize 
+(construct),find-max (or find-min),insert,extract-max (or extract-min),delete
+max (or delete-min), replace etc.  
+3. Implementation of Binary Search Tree.  
+Objective:
+ Learn to deal with basic Data Structure. 
+Problem Statement: 
+Implement Binary search tree (BST) function. Define suitable doubly linked node 
+structure for this which will be used by the BST concept. Implement the methods 
+ insert 
+ delete 
+ search 
+ display 
+ findheight 
+ dfs 
+ bfs 
+4. Implementation of Hashing.  
+Objective:
+ Learn to deal with basic Data Structure. 
+Problem Statement: 
+Implement hashing function which the concept of open hashing using Channing.  
+[Use modular hash function (x%10).  Generate 100 random int key values and 
+insert each of them and perform searching. Report the % of load in each of 10 
+buckets. Try any other different hash function and report which one is better. 
+Implement the following methods] 
+ Search 
+ Insert 
+ Delete 
+ Display
+
+
+
+Assignment 3
+
+
+
+1. Objective:
+ Learn to deal with basic Data Structure. 
+Problem Statement: 
+Implement a stack class. You should have atleast these member functions:  
+initialize (construct), deconstruct, push, pop, display, isempty, isfull, etc. Show the 
+use of the stack class by creating objects and calling the member functions.  
+2. Objective:
+ Learn to deal with basic Data Structure. 
+Problem Statement: 
+Implement a queue class. You should have atleast these 
+member functions:  initialize (construct), deconstruct, push, pop, display, isempty, 
+isfull, etc. Show the use of the queue class by creating objects and calling the 
+member functions. 
+3. Objective:
+ Learn to deal with basic object oriented concept. 
+Problem Statement:  
+Write a C++ program to implement a class called Total_Cost 
+that has private member variables for length, breadth, height and cost per square 
+meter. Include member functions to calculate the total cost to paint all the walls of a 
+room. Ignore doors and windows. 
+4. Objective:
+ Learn to deal with basic object oriented concept. 
+Problem Statement:  
+Write a C++ program to create a class called Book that has 
+private member variables for title, author, year, and price. The class should include 
+member functions to display the book's details, apply a discount of 5% of total price, 
+and update the price.
+
+
+Assignment 4
+
+
+1. Objective:  Learn to deal with basic mathematical operations. 
+Problem Statement:  
+Implement a Set class. You have to perform isMember, insertSet and delSet, 
+union, intersection, complement operations in the class. Additionally, use 
+constructor overloading to allow: 
+ Creating an empty set. 
+ Creating a set initialized with a list of elements. 
+ Creating a set that is a copy of another set. 
+Show the use of the class by creating objects using different constructors and 
+calling the member functions to demonstrate the set operations. 
+ 
+2. Objective:  Learn to deal with constructor overloading. 
+Problem Statement:  
+Write a C++ program that demonstrates the concept of constructor overloading 
+by calculating the area of different shapes (i.e., square, rectangle) using different 
+constructors (a default constructor, a constructor with one parameter for 
+squares, and a constructor with two parameters for rectangles). The program 
+should then display the calculated areas for each shape. 
+ 
+ 
+3. Objective:
+ Learn to deal with Operator overloading. 
+Problem Statement:
+ Write a C++ program to demonstrate operator overloading for basic arithmetic 
+operations (addition, subtraction, multiplication, and division) using a class. The 
+program should involve creating a class with a data member to store a number, 
+overloading the +, -, *, and / operators for arithmetic operations, and then 
+displaying the results. 
+4. Objective:
+ Learn to deal with Operator overloading. 
+Problem Statement:
+ Create a C++ program that defines a Complex class to represent complex 
+numbers. The class should have:  
+ Two private data members: real (for the real part) and imag (for the 
+imaginary part).  
+ A parameterized constructor that initializes these members (with default 
+values of 0).  
+Calculate the addition and subtraction of two complex numbers by overloading 
+the '+' and '-' binary operators.
+
+
+Assignment 5
+
+
+1. Objective:  Learn to use Operator Overloading. 
+Problem Statement:  
+Implement a Fraction class which performs the following operations:  
+Add (+), Subtract (-), Multiply (*), Divide (/), Compare (==, !=, <, >), Copy (=). 
+ 
+2. Objective:  Learn to use Operator Overloading. 
+Problem Statement: 
+Implement a Complex class which performs the following operations:  
+Multiply (*), Divide (/), Conjugate (!), Compare (==, !=), Copy (=). 
+ 
+3. Objective:  Learn to use Operator Overloading. 
+Problem Statement: 
+Implement a Code to execute Overload ++ when used as prefix and postfix. 
+ 
+4. Objective:  Learn to use Operator Overloading. 
+Problem Statement: 
+Consider the following C++ code that includes a class Coordinates with two 
+integer fields ‘X’ and ‘Y’. The class has a constructor to initialize these fields and 
+an overloaded unary - operator that decrements both ‘X’ and ‘Y’ by 1. The 
+operator also prints the decremented values of X and Y. 
+
+
+
+Assignment 6
+
+
+
+1. Objective:  Learn to implement Inheritance in C++  
+Problem Statement:  
+Write a program to declare a matrix class which has data member integer array as 
+3X3. Derive class matrixA from class matrix and matrixB form matrixA. All these 
+classes should have a function show() to display the contents. Read and display 
+the elements of all three matrices. 
+ 
+2. Objective:  Learn to implement Inheritance in C++  
+Problem Statement: 
+Create a base class called vehicle that stores number of wheels and speed. Create 
+the following derived class: 
+a. Car that inherits vehicle and also stores number of passengers. 
+b. Truck that inherits vehicle and also stores load limit. 
+c. Write a program to create objects of these classes and display all the 
+information about the car and truck. Also compare the speed of the vehicles and 
+display ‘faster’or ‘slower’ if car is slower than the truck. 
+ 
+3. Objective:  Learn to implement Inheritance in C++ 
+Problem Statement: 
+Write a C++ program where you create a base class Person with data members 
+name and age. Create a derived class Student that adds a studentID data 
+member. Implement functions in both classes to display their respective data. In 
+the main function, create an object of the Student class, set values for all data 
+members, and display them. 
+
+
+
+
+Assignment 7
+
+
+
+
+1. Objective:  Learn to implement operator overloading in C++  
+Problem Statement:  
+1. Implement a  Linked List class (Don’t forget to add copy constructor) which performs the 
+following operations: 
+Concatenate (+), Reverse ( ! ), Compare (==), Copy (=), Subscript ([ ]) – check and  display 
+message when index is more than the size of the list, Allocation/Deallocation (new, delete) – 
+using avail list,  Input-Output (>>,<<) 
+2. Objective:  Learn to implement Inheritance in C++  
+Problem Statement: 
+class Tool 
+{ /* Fill in */ 
+}; 
+/*Implement class Scissors */ 
+/*Implement class Paper */ 
+/*Implement class Rock */ 
+int main() { 
+// Example main function 
+// You may add your own testing code if you like 
+Scissors s1(5); 
+Paper p1(7); 
+Rock r1(15); 
+cout << s1.fight(p1) << p1.fight(s1) << endl; 
+cout << p1.fight(r1) << r1.fight(p1) << endl; 
+ 
+cout << r1.fight(s1) << s1.fight(r1) << endl; 
+return 0; 
+} 
+ 
+In the above sample code, implement a class called Tool. It should have an int field called 
+strength and a char field called type. You may make them either private or protected. The 
+Tool class should also contain the function void setStrength(int), which sets the strength for 
+the Tool. 
+Create 3 more classes called Rock, Paper, and Scissors, which inherit from Tool. Each of these 
+classes will need a constructor which will take in an int that is used to initialize the strength  
+field. The constructor should also initialize the type field using 'r' for Rock, 'p' for Paper, and 's'  
+for Scissors. 
+These classes will also need a public function bool fight (Tool) that compares their strengths 
+in the following way: - Rock's strength is doubled (temporarily) when fighting scissors, but halved 
+(temporarily) when fighting paper. -In the same way, paper has the advantage against rock, and scissors against paper. -The strength field shouldn't change in the function, which returns true if the original 
+class wins in strength and false otherwise. 
+You may also include any extra auxiliary functions and/or fields in any of these classes. Run the 
+program without changing the main function, and verify that the results are correct. 
+3. Objective:
+ Learn to implement Inheritance in C++ 
+Problem Statement:
+ Create a base class called Employee that stores the name, ID, and salary of an employee. Create 
+the following derived classes: 
+ Manager that inherits Employee and stores the number of employees managed. 
+ Engineer that inherits Employee and stores the department they work in. 
+Write a program to create objects of these classes, input their details, and display all the 
+information about the manager and engineer. Also, compare their salaries and display which 
+employee earns more.
+
+
+
+
+Assignment 8
+
+
+
+
+1. Objective:  Learn to write & use C++ templates 
+Problem Statement:  
+Implement the Stack class as a template and show it’s usage by creating stack 
+objects of type int, char, float, complex, student record, etc. Student record should 
+contain name(string), roll no.(string), year(int), gender(char), CGPA(float), Regn 
+No. (string). 
+ 
+2. Objective:  Learn to write & use C++ templates 
+Problem Statement:  
+Convert the node class & linked list class into template. Show it’s usage by creating 
+a single linear linked list of type int, char, float, complex, student record, etc. 
+Student record should contain name(string), roll no.(string), year(int), 
+gender(char), CGPA(float), Regn No. (string). 
+ 
+3. Objective:  Learn to write & use C++ templates 
+Problem Statement:  
+Convert the graph data structure class to a template graph class which uses linked 
+list class header file. Use the all class header file and stack (for dfs) class header file 
+for implementation. Provide suitable interface to find 
+ the shortest path among a pair of vertices using dijkstra’s algorithm 
+ dfs traversal
